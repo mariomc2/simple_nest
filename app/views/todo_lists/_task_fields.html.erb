@@ -4,4 +4,6 @@
   </td>
   <td><%= f.input :name, label: false %></td>
   <td><%= f.input :completed, label: false %></td>
+  <td><%= f.input :status, :collection => %w[A B C], label: false, input_html: { class: 'status'} %></td>
+  <td><%= f.input :statusValue, label: false, input_html: { class: 'statusValue'} %></td>
 </tr>

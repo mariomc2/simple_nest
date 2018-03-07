@@ -16,6 +16,8 @@ ActiveRecord::Schema.define(version: 20180118051157) do
     t.integer "todo_list_id"
     t.string "name"
     t.boolean "completed"
+    t.string "status"
+    t.integer "statusValue"
     t.date "due"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false

@@ -31,7 +31,10 @@ gem 'jbuilder', '~> 2.5'
 # gem 'bcrypt', '~> 3.1.7'
 gem 'jquery-rails'
 
-gem 'bootstrap-sass'
+# Use Bootstrap 4
+gem 'bootstrap', '~> 4.0.0'
+
+# gem 'bootstrap-sass'
 gem 'simple_form'
 gem 'cocoon'
 
